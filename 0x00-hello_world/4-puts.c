@@ -1,9 +1,16 @@
 #include <stdio.h>
 
-int main(void)  {
+/**
+* main - Entry point
+* Return: 0 If successful
+*
+* Description: This prints "Programming is like building a multilingual
+* puzzle
+*/
 
-  puts("Programming is like building a multilingual puzzle\n");
+int main(void)
+{
 
-  return(0);
-
-}   	
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
+}

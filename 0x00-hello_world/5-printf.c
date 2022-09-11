@@ -4,7 +4,7 @@
  * main - Entry point
  * Takes no argument
  *
- * Description: Print string using printf 
+ * Description: Print string using printf
  * Return: Return to zero if successful
  */
 int main(void)

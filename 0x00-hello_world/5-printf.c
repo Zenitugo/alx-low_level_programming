@@ -4,7 +4,7 @@
  * main - Entry point
  * Takes no argument
  *
- * Description: This prints "with proper grammar, but the outcome is a piece * of art,
+ * Description: Print string using printf 
  * Return: Return to zero if successful
  */
 int main(void)

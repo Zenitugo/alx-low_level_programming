@@ -6,7 +6,7 @@
  *
  * Desciption: using the main function
  * this program prints "abcdfghijklmnoprstuvwxyz
- * Returns: zero if successful
+ * Return: zero if successful
  */
 int main(void)
 {

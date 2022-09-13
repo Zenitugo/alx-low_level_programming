@@ -4,7 +4,8 @@
  * main - entry point
  * takes no argument
  *
- * Desciption: print letters without q and e
+ * Desciption: using the main function
+ * this program prints "abcdfghijklmnoprstuvwxyz
  * Returns: zero if successful
  */
 int main(void)

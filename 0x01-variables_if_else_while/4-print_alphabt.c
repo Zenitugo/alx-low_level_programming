@@ -4,7 +4,7 @@
  * main - entry point
  * takes no argument
  *
- * Desciption: Print A to Z and leave out q and E
+ * Desciption: print letters without q and e
  * Returns: zero if successful
  */
 int main(void)

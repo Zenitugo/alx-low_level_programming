@@ -12,7 +12,6 @@ int main(void)
 	int ch;
 
 	(ch <= 122);
-
 	{
 		putchar(ch);
 		ch++;

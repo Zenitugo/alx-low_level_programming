@@ -11,12 +11,8 @@ int main(void)
 {
 	int ch;
 
-       ch = 97;
-		while (ch < = 122);
-	{
+        For (ch = 97; ch <= 122; ch ++)
 		putchar(ch);
-		ch++;
-	}
 
 	putchar (10);
 	return (0);

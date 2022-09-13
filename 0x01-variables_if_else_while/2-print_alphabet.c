@@ -9,11 +9,11 @@
  */
 int main(void)
 {
-	int ch;
+	int char;
 
-	putchar (97);
+	char = 97;
 	while
-	(ch <= 122);
+	(char <= 122);
 
 	{
 		putchar(ch);

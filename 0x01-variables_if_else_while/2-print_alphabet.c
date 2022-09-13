@@ -11,7 +11,7 @@ int main(void)
 {
 	int ch;
 
-       if ch = 97;
+       if (ch) = 97;
 		while (ch <= 122);
 	{
 		putchar(ch);

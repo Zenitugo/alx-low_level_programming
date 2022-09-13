@@ -7,24 +7,18 @@
  *Descripton: lower case then uppercase
  *Return: zero if successful
  */
-int main(Void)
+int main(void)
 {
-	int ch;
+	char ch;
 
-	if ch = 97;
-		while (ch <= 122);
-
-		{
-			putchar(ch;)
-			ch++;
-		}
-
-	ch = 65
-		while (ch <=90)
-		{
-			putchar(ch);
-			ch++;
-		}
+	for (ch = 97 ; ch <= 122 ; ch++)
+	{
+		putchar(ch;)
+	}
+	for (ch = 65 ; ch <= 90 ; ch++)
+	{
+		putchar(ch);
+	}
 	putchar(10);
-	return (0)
+	return (0);
 }

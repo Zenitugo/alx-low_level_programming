@@ -9,15 +9,14 @@
  */
 int main(void)
 {
-	int char;
+	int ch;
 
-	char = 97;
-	while
-	(char <= 122);
+	if ch = 97;
+		while (ch <= 122);
 
 	{
 		putchar(ch);
-		ch++ ;
+		ch++;
 	}
 
 	putchar (10);

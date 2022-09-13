@@ -8,19 +8,14 @@
  * Return: zero if successful
  */
 int main(void)
-
 {
-	int ch;
+	char ch;
 
-	ch = 97;
-	(ch <= 122);
-  
-		{
+	for (ch = 97 ; ch <= 122 ; ch++)
+	{
 		putchar(ch);
-		ch++;
-		}
+	}
 
 	putchar (10);
 	return (0);
-
 }

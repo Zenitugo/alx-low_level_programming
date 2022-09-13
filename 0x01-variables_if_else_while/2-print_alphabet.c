@@ -11,15 +11,15 @@ int main(void)
 {
 	int ch;
 
-	ch = 'a' ;
+	ch = 97 ;
 	while
-	(ch <= 'z');
+	(ch <= 122);
 
 	{
 		putchar(ch);
-		ch++;
+		ch++ ;
 	}
 
-	putchar (/n);
+	putchar (10);
 	return (0);
 }

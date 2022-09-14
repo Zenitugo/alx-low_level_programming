@@ -5,11 +5,9 @@
  * takes no argument
  *
  * print_alphabet - prints lowercase alphabet
- * lower case
  * Return: zero if successful
  */
-
-void print_alphabet(void)
+void print_alphabet(void);
 {
 	char ch;
 

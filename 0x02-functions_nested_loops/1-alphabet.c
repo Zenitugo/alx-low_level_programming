@@ -2,18 +2,17 @@
 
 /**
  * main - check the code
- * takes no argument
- *
  * print_alphabet - prints lowercase alphabet
  * Return: zero if successful
  */
-void print_alphabet(void);
+
+void print_alphabet(void)
 {
-	char ch;
+	char j;
 
-	ch = 97;
+	j = 97;
 
-	while (ch <= 122)
+	while (j <= 122)
 	{
 	_putchar(ch);
 	ch++;

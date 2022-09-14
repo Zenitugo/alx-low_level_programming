@@ -14,7 +14,7 @@ void print_alphabet(void)
 
 	while (j <= 122)
 	{
-	_putchar(ch);
+	_putchar(j);
 	ch++;
 	}
 	_putchar(10);

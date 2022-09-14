@@ -1,8 +1,10 @@
 #include "main.h"
 
 /**
- * main - check the code
- * print_alphabet - prints lowercase alphabet
+ * print_alphabet - check the code
+ * takes no argument
+ *
+ * Description: print_alphabet - prints lowercase alphabet
  * Return: zero if successful
  */
 

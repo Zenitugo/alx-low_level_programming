@@ -4,10 +4,11 @@
  * main - check the code
  * takes no argument
  *
- * Description: print alphabets in
+ * print_alphabet - prints lowercase alphabet
  * lower case
  * Return: zero if successful
  */
+
 void print_alphabet(void)
 {
 	char ch;
@@ -16,10 +17,8 @@ void print_alphabet(void)
 
 	while (ch <= 122)
 	{
-		_putchar(ch);
-		ch++;
+	_putchar(ch);
+	ch++;
 	}
 	_putchar(10);
-	return (0);
 }
-

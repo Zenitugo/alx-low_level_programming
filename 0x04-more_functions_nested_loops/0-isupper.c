@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check the code.
+ *  _isupper - check the code.
  * @c: is uppercase
  * Return: (1) if successful other wise return (0)
  */
@@ -12,15 +12,10 @@ int _isupper(int c);
 
 	if (c = 'A' && c <= 'Z')
 	{
-		_putchar("%c: %d\n", c _isupper(c));
+		return (1)
 	}
-	else (c = 'a' && c <= 'z')
+	else
 	{
-		continue;
-		_putchar(c);
-		c++
+		return (0)
 	}
-	_putchar("\n");
-	return (1);
 }
-	

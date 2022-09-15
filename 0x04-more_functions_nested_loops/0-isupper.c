@@ -10,9 +10,17 @@ int _isupper(int c);
 {
 	char c;
 
-	c = 'A';
-	printf("%c: %d\n", c _isupper(c));
-	c = 'a';
-	printf("%c: %d\n", c, _isupper(c));
-	return (0);
+	if (c = 'A' && c <= 'Z')
+	{
+		_putchar("%c: %d\n", c _isupper(c));
+	}
+	else (c = 'a' && c <= 'z')
+	{
+		continue;
+		_putchar(c);
+		c++
+	}
+	_putchar("\n");
+	return (1);
 }
+	

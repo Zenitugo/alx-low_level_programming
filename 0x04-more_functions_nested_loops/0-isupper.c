@@ -6,7 +6,7 @@
  * Return: (1) if successful other wise return (0)
  */
 
-int _isupper(int c);
+int _isupper(int c)
 {
 	if ((char)c >= 'A'  && (char c)c <= 'Z')
 	{

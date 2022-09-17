@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *  _isupper - check the code.
+ * _isupper - check the code.
  * @c: is uppercase
  * Return: (1) if successful other wise return (0)
  */

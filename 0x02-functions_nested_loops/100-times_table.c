@@ -4,35 +4,47 @@
  * print_times_table -  prints the n times table
  * @n:argument
  */
-
 void print_times_table(int n)
 {
+	int i, j, k;
 
-	int row;
-	int column;
-	int product;
-
-	for (row = 0; row <= 15; row++)
+	if (n >= 0 && n <= 15)
 	{
-		product = (row * column);
-		if (column == 0)
+		for (i = 0; j <= n; i++)
 		{
-			_putchar('0' + product);
+			for (j = 0; j <= n; j++)
+			{
+				k = j * i;
+				if (j == 0)
+				{
+					_putchar(k + '0');
+				}
+				else if (k < 10 && j != 0)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar(k + '0');
+				}
+				else if (k >= 10 && k < 100)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar(' ');
+					_putchar((k / 10 + '0');
+					_putchar((k % 10 + '0');
+				}
+				else if (k >= 100)
+				{
+					_putchar(',');
+					_putchar(' ');
+					_putchar((k / 100) + '0');
+					_putchar(((k / 10) % 10) + '0');
+					_putchar((k % 10) + '0');
+				}
+			}
+
+			_putchar('\n');
 		}
-		else if (product <= 15)
-		{
-			_putchar(',');
-			_putchar(' ');
-			_putchar(' ');
-			_putchar('0' + product);
-		}
-		else if (product > 15)
-		{
-			_putchar(',');
-			_putchar(' ');
-			_putchar('0' + (product / 16));
-			_putchar('0' + (product % 16));
-		}
-		_putchar('\n');
 	}
 }

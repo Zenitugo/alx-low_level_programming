@@ -9,10 +9,9 @@
 
 void reset_to_98(int *n)
 {
-	int m = 98;
 	int *n;
 
-	n = $ m;
+	*n = 98;
 		_putchar("value of *n variable: %d\n", *n);
 		return (0);
 }

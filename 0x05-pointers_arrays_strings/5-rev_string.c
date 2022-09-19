@@ -1,23 +1,6 @@
 #include "main.h"
 
 /**
- * _strlen - returns the length of a string
- * @s: string
- * Return: length of a string
- */
-
-int _strlen(char *s)
-{
-	int t = 0;
-
-	while (*s != '\0')
-	{
-		t++;
-		s++;
-	}
-}
-
-/**
  * rev_string - checks the code
  * @s: string
  *
@@ -27,15 +10,26 @@ int _strlen(char *s)
 
 void rev_string(char *s)
 {
-	int x = 0;
-	int y = (_strlen(s) - 1);
-	char c;
+	int m, n;
+	int b = 0;
+	char revString[1000];
 
-	while (x < y)
+	for (m = 0; 1 ; m++)
 	{
-		c = s[x];
-		s[x] = s[y];
-		s[y] = c;
-		x++, y++;
+		if (s[m] == 0)
+			break;
+		b++;
+	}
+	m = 0;
+	for (n = b - 1; n >= 0; n--)
+	{
+		revString[m] = s[n];
+		m++;
+	}
+	for (m = 0; 1 ; m++)
+	{
+		if (revString[m] == 0)
+			break;
+		s[m] = revString[m];
 	}
 }

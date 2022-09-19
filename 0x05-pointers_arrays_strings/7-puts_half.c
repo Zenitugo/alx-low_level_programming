@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * _strlen - checks the code
+ * _strlen - returns the length of a string
  * @s: string
  *
  * Description: function that prints half of a string

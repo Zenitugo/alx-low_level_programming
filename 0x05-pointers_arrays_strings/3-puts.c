@@ -18,5 +18,6 @@ void _puts(char *str)
 		p++;
 	}
 	_putchar("\n");
+	return (0);
 }
 

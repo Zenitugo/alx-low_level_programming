@@ -11,7 +11,5 @@ void reset_to_98(int *n)
 {
 	int *n;
 
-	*n = 98;
-		_putchar("value of *n variable: %d\n", *n);
-		return (0);
+	*n = 98
 }

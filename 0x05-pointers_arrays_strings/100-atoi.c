@@ -10,34 +10,34 @@
 
 int _atoi(char *s)
 {
-	int m = 0;
+	int i = 0;
+	int d = 0;
 	int n = 0;
-	int o = 0;
 	int len = 0;
-	int p = 0;
+	int f = 0;
 	int digit = 0;
 
 	while (s[len] != '\0')
 		len++;
-	while (m < len && p == 0)
+	while (i < len && f == 0)
 	{
-		if (s[m] == '-')
-			++n;
+		if (s[i] == '-')
+			++d;
 
-		if (s[m] >= '0' && s[m] <= '9')
+		if (s[i] >= '0' && s[i] <= '9')
 		{
-			digit = s[m] - '0';
-			if (n % 2)
+			digit = s[i] - '0';
+			if (d % 2)
 				digit = -digit;
-			o = o * 10 + digit;
-			p = 1;
-			if (s[m + 1] < '0' || s[m + 1] > '9')
+			n = n * 10 + digit;
+			f = 1;
+			if (s[i + 1] < '0' || s[i + 1] > '9')
 				break;
-			p = 0;
+			f = 0;
 		}
-		m++;
+		i++;
 	}
-	if (p == 0)
+	if (f == 0)
 		return (0);
 	return (n);
 }

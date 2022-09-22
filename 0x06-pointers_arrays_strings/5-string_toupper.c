@@ -7,17 +7,14 @@
  * Return: string with all uppercase letters
  */
 
-char *string_toupper(char *)
+char *string_toupper(char *s)
 {
-	int i;
-	int x = 0;
+	int i = 0;
 
 	for (i = 0; s[i] != '\0'; i++)
-		x++;
-	for (i = 0; i < x; i++)
 	{
-		if (s[i] >= 97 && s[x] <= 122)
-			s[i] = s[i] - 97 + 65;
+		if (s[i] >= 'a' && s[i] <= 'z')
+			s[i] = s[i] - 'a' + 'A';
 	}
 	return (s);
 }

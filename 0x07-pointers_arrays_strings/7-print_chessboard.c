@@ -9,18 +9,18 @@
 
 void print_chessboard(char (*a)[8])
 {
-	chess char[8] [8];
+	chessboard char[8] [8];
 	char i, j;
 
-	for(i = 0; i <= 8; i++);
+	for (i = 0; i <= 8; i++);
 	{
-		for(j = 0; j <= 8; j++)
+		for (j = 0; j <= 8; j++)
 		{
-			for every chess[i] [j]
+			for (chessboard[i] [j])
 			{
 				_putchar(' ')
 			}
 		}
-		 _putchar("%c\t", chess[i] [j]);
+		 _putchar("%c\t", chessboard[i] [j]);
 	}
 }

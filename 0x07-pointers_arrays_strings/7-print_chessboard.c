@@ -7,7 +7,7 @@
  * Return: the total combination of the chessboard
  */
 
-void print_chessboard(char (*a)[8]);
+void print_chessboard(char (*a)[8])
 {
 	chess char[8] [8];
 	char i, j;

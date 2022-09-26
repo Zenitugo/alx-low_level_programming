@@ -9,12 +9,12 @@
 
 void print_chessboard(char (*a)[8]);
 {
-	chess char[9] [9];
+	chess char[8] [8];
 	char i, j;
 
-	for(i = 0; i < 9; i++);
+	for(i = 0; i <= 8; i++);
 	{
-		for(j = 0; j < 9; j++)
+		for(j = 0; j <= 8; j++)
 		{
 			for every chess[i] [j]
 			{

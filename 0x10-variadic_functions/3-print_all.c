@@ -9,21 +9,24 @@
 void print_all(const char * const format, ...)
 {
 	va_list valist;
-	unsigned int i = 0; k; c =0;
+	va_list	va_arg;
+	unsigned int i = 0;
+	unsigned int f;
+	unsigned int c = 0;
 	char *s;
-	const char = "cifs";
+	const char t_arg[] = ("cifs");
 
 	va_start(valist, format);
 	while (format && format[i])
 	{
-		k = 0;
-		while (t_arg[j])
+		f = 0;
+		while (t_arg[f])
 		{
-			if (format[i] == t_arg[j] && c)
+			if (format[i] == t_arg[f] && c)
 			{
 				printf(", ");
 				break;
-			} k++;
+			} f++;
 		}
 		switch (format[i])
 		{

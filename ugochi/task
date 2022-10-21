@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * main -entry point
+ * takes no argument
+ * Description: script that runs a C file through the preprocessor
+ * Return: zero if successful
+ */
+int main( )
+{
+	char dest [6] = {"Hello"};
+	char src [7] = {"world!};
+
+	printf("concatenated string : %s\n", strcat(dest, src));
+
+	return (0);
+}

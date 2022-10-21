@@ -50,5 +50,7 @@ void print_all(const char * const format, ...)
 		} i++;
 	}
 	printf("\n");
+	return (print_all);
+
 	va_end(valist);
 }
